@@ -14,7 +14,7 @@ def intro():
         DEFI Terminal is an open-source Streamlit app built specifically to analyze the crypto market. DEFI Terminal allows you to analyze thousands of protocols and pools. DEFI Terminal is powered by Defi Llama.
         
        
-        DEFI Terminal consists of multiple dashboards that feature Total Value Locked vs Protocol Market Cap, and Pools APY. Select a dashboard and see what DEFI Terminal can do! 
+        DEFI Terminal consists of multiple dashboards that feature Total Value Locked vs Protocol Market Cap, Top Protocols by Category, and Pools APY. Select a dashboard and see what DEFI Terminal can do! 
         
         A big shoutout to the team at [Hummingbot](https://https://www.youtube.com/watch?v=l6PWbN2pDK8). Without their videos and blog posts this project would not have be been possible. Make sure you check out their excellent content!
        
@@ -26,7 +26,7 @@ def intro():
         #### Please note this app is NOT financial advice, nor are any dashboards intended to help guide financial decisions!
     """
     )
-MIN_TVL = 500000.
+MIN_TVL = 100000.
 MIN_MCAP = 500000.
  
 def get_tvl_mcap_data():
