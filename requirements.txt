@@ -7,3 +7,4 @@ yfinance
 pandas_datareader
 scipy
 DeFiLlama
+statsmodels
