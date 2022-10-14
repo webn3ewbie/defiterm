@@ -6,3 +6,4 @@ plotly
 yfinance
 pandas_datareader
 scipy
+DeFiLlama
